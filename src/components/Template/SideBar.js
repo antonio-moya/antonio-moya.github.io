@@ -27,7 +27,7 @@ const SideBar = () => (
         y he pasado multitud de vicisitudes, desde dejar a toda España sin Intenet unas horas hasta
         proyectos de investigación europeos. Mi intención con este sitio web es contar mis aventuras
         y desventuras, desmitificar las tecnlogías novedosas y, si a alguien le puede servir,
-        explicar qué es para mi un informático &quot;bueno&quot;.
+        explicar qué es para mi un buen informático.
       </p>
       <ul className="actions">
         <li>

@@ -15,7 +15,7 @@ const Index = () => (
             A beautiful, responsive, statically-generated,
             react application written with modern Javascript.
           </p>
-          <div>visibl33e</div>
+          <div>AKIII visibl33e</div>
           <div style={{display:'none'}}>no visible</div>
         </div>
       </header>

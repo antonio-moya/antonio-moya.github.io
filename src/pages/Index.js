@@ -16,7 +16,7 @@ const Index = () => (
             react application written with modern Javascript.
           </p>
           <div>visible</div>
-          <div style={ { display: 'none' } }>no visible</div>
+          <div style={{ display: 'none' }}>no visible</div>
         </div>
       </header>
       <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,

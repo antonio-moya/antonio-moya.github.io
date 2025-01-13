@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo Hidrológico Nedbør-Afstrømnings-Model (NAM)</title>
+</head>
+<body>
+    <h1>Modelo Hidrológico Nedbør-Afstrømnings-Model (NAM)</h1>
+    <p>
+        El <strong>modelo hidrológico Nedbør-Afstrømnings-Model (NAM)</strong> es un modelo matemático utilizado para simular el comportamiento del ciclo hidrológico en una cuenca hidrográfica.
+        Este modelo permite estimar la escorrentía superficial y el almacenamiento de agua en función de la precipitación y otros factores relacionados con la cuenca.
+    </p>
+
+    <h2>Descripción del Modelo</h2>
+    <h3>1. Componentes principales:</h3>
+    <p>
+        El modelo NAM se enfoca en tres componentes clave del ciclo hidrológico:
+    </p>
+    <ul>
+        <li><strong>Precipitación (Nedbør):</strong> Ingreso de agua a la cuenca en forma de lluvia, nieve o granizo.</li>
+        <li><strong>Infiltración (Absorción):</strong> Parte de la precipitación que se infiltra en el suelo y es almacenada.</li>
+        <li><strong>Escorrentía superficial (Afstrømning):</strong> Parte de la precipitación que fluye por la superficie hacia los cuerpos de agua.</li>
+    </ul>
+
+    <h3>2. Estructura del Modelo</h3>
+    <p>
+        El modelo NAM organiza la cuenca en <strong>subcuencas</strong> que permiten modelar el comportamiento de cada área de manera independiente. Además, se incorporan funciones de almacenamiento y drenaje para simular cómo el agua se distribuye y fluye a través del sistema.
+    </p>
+    <ul>
+        <li><strong>Subcuencas:</strong> Dividen la cuenca para modelar los flujos de agua.</li>
+        <li><strong>Almacenamiento del agua:</strong> Representa el almacenamiento de agua en el suelo y las superficies terrestres.</li>
+        <li><strong>Drenaje superficial:</strong> Modela cómo el agua se mueve hacia los ríos y lagos.</li>
+        <li><strong>Balance de agua:</strong> Asegura la conservación de la masa de agua en el sistema.</li>
+    </ul>
+
+    <h3>3. Ecuaciones del Modelo</h3>
+    <p>Las principales ecuaciones del modelo son:</p>
+    <h4>Ecuación de Escorrentía:</h4>
+    <p>
+        <strong>Q(t) = P(t) - I(t)</strong>
+    </p>
+    <p>Donde:</p>
+    <ul>
+        <li><strong>Q(t):</strong> Escorrentía acumulada.</li>
+        <li><strong>P(t):</strong> Precipitación acumulada.</li>
+        <li><strong>I(t):</strong> Infiltración acumulada.</li>
+    </ul>
+
+    <h4>Ecuación de Almacenamiento:</h4>
+    <p>
+        <strong>S(t) = S(t-1) + I(t) - D(t)</strong>
+    </p>
+    <p>Donde:</p>
+    <ul>
+        <li><strong>S(t):</strong> Almacenamiento en el suelo.</li>
+        <li><strong>D(t):</strong> Drenaje acumulado.</li>
+    </ul>
+
+    <h3>4. Parámetros Importantes</h3>
+    <p>Algunos de los parámetros clave del modelo son:</p>
+    <ul>
+        <li><strong>Coeficientes de permeabilidad:</strong> Determinan la velocidad de infiltración en el suelo.</li>
+        <li><strong>Parámetros de almacenamiento:</strong> Reflejan la capacidad de retención de agua del suelo.</li>
+        <li><strong>Coeficientes de drenaje:</strong> Modulan la velocidad a la cual el agua fluye hacia ríos o lagos.</li>
+    </ul>
+
+    <h3>5. Aplicaciones del Modelo</h3>
+    <p>El modelo NAM se utiliza para:</p>
+    <ul>
+        <li><strong>Estimación del flujo de agua superficial:</strong> Para predecir el volumen de agua que fluye a través de una cuenca.</li>
+        <li><strong>Gestión de recursos hídricos:</strong> Ayuda en la planificación de presas, riego y control de inundaciones.</li>
+        <li><strong>Impacto ambiental:</strong> Evalúa cómo diferentes escenarios de uso del suelo y el cambio climático pueden afectar los recursos hídricos.</li>
+    </ul>
+
+    <h2>Gráficos Representativos</h2>
+    <p>A continuación se presentan los tipos de gráficos que se generan a partir de las simulaciones del modelo NAM:</p>
+
+    <h3>1. Gráfico de Escorrentía vs. Tiempo</h3>
+    <p>
+        Este gráfico muestra la escorrentía acumulada a lo largo del tiempo en respuesta a las precipitaciones.
+    </p>
+    <ul>
+        <li><strong>Eje X:</strong> Tiempo (días, meses, años).</li>
+        <li><strong>Eje Y:</strong> Escorrentía acumulada (mm, m³/s).</li>
+    </ul>
+
+    <h3>2. Gráfico de Balance de Agua (Precipitación, Infiltración, Escorrentía)</h3>
+    <p>
+        Este gráfico muestra cómo se distribuye la precipitación entre los diferentes procesos hidrológicos:
+    </p>
+    <ul>
+        <li><strong>Eje X:</strong> Tiempo.</li>
+        <li><strong>Eje Y:</strong> Volumen de agua (mm o m³).</li>
+    </ul>
+    <p>
+        El gráfico tendrá tres áreas o líneas:
+        <ul>
+            <li><strong>Precipitación:</strong> Total de lluvia caída.</li>
+            <li><strong>Infiltración:</strong> Cantidad de agua que se infiltra en el suelo.</li>
+            <li><strong>Escorrentía:</strong> Agua que fluye hacia los cuerpos de agua.</li>
+        </ul>
+    </p>
+
+    <h3>3. Gráfico de Almacenamiento del Suelo</h3>
+    <p>
+        Este gráfico muestra cómo varía el almacenamiento de agua en el suelo a lo largo del tiempo.
+    </p>
+    <ul>
+        <li><strong>Eje X:</strong> Tiempo.</li>
+        <li><strong>Eje Y:</strong> Almacenamiento de agua en el suelo (mm).</li>
+    </ul>
+
+    <h3>4. Gráfico de Drenaje</h3>
+    <p>
+        Este gráfico muestra cómo se produce el drenaje o flujo superficial de agua desde el suelo hacia los ríos y lagos.
+    </p>
+    <ul>
+        <li><strong>Eje X:</strong> Tiempo.</li>
+        <li><strong>Eje Y:</strong> Caudal de drenaje (mm o m³/s).</li>
+    </ul>
+
+    <h2>Ventajas del Modelo NAM</h2>
+    <ul>
+        <li><strong>Flexibilidad:</strong> Puede adaptarse a diferentes tipos de cuencas e intervenciones en el uso del suelo.</li>
+        <li><strong>Simulaciones a largo plazo:</strong> Permite evaluar el comportamiento de una cuenca a lo largo del tiempo.</li>
+        <li><strong>Aplicaciones en gestión del agua:</strong> Es útil para la planificación de recursos hídricos, prevención de inundaciones y manejo de cuencas hidrográficas.</li>
+    </ul>
+
+    <h2>Conclusión</h2>
+    <p>
+        El modelo NAM es una herramienta poderosa para simular el ciclo hidrológico en cuencas hidrográficas. A través de sus componentes y ecuaciones, permite predecir la escorrentía y evaluar los efectos del uso del suelo y el cambio climático sobre los recursos hídricos.
+        Su capacidad para modelar flujos de agua en detalle es fundamental para la gestión eficiente de los recursos hídricos.
+    </p>
+</body>
+</html>
